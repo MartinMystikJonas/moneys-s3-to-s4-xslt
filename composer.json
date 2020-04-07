@@ -1,0 +1,13 @@
+{
+  "name": "martinmystikjonas/money-s3-to-s4-xslt",
+  "type": "project",
+  "license": ["MIT"],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {
+    "nette/tester": "*"
+  }
+}

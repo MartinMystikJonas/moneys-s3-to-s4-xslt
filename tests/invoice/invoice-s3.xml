@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MoneyData ICAgendy="123456789" description="Faktury vydané export" ExpZkratka="_FV_invoice" ExpDate="2020-04-07" ExpTime="17:20:36">
+  <SeznamFaktVyd>
+    <FaktVyd>
+      <Doklad>E200000001</Doklad>
+      <Popis>Objednávka č. 1230000123</Popis>
+      <Vystaveno>2020-04-02</Vystaveno>
+      <PlnenoDPH>2020-04-03</PlnenoDPH>
+      <Splatno>2020-04-16</Splatno>
+      <VarSymbol>1230000123</VarSymbol>
+      <CObjednavk>1230000321</CObjednavk>
+      <Uhrada>plat. kart.</Uhrada>
+      <ZpDopravy>Česká Pošta</ZpDopravy>
+      <KodDPH>19Ř01,02</KodDPH>
+      <PredKontac>P503</PredKontac>
+      <DodOdb>
+        <ObchNazev>Josef Novak</ObchNazev>
+        <ObchAdresa>
+          <Ulice>Ulice 123</Ulice>
+          <Misto>Praha</Misto>
+          <PSC>11000</PSC>
+          <Stat>Česká republika</Stat>
+          <KodStatu>CZ</KodStatu>
+        </ObchAdresa>
+        <FaktNazev>Karel Novak</FaktNazev>
+        <ICO>123456789</ICO>
+        <DIC>CZ123456789</DIC>
+        <FaktAdresa>
+          <Ulice>Ulice 456</Ulice>
+          <Misto>Bratislava</Misto>
+          <PSC>22000</PSC>
+          <Stat>Slovensko</Stat>
+          <KodStatu>SK</KodStatu>
+        </FaktAdresa>
+        <Nazev>Josef Novak</Nazev>
+        <Tel>
+          <Cislo>+420123456789</Cislo>
+        </Tel>
+        <EMail>test@test.cz</EMail>
+        <FyzOsoba>1</FyzOsoba>
+      </DodOdb>
+      <SeznamPolozek>
+        <Polozka>
+          <Popis>Objednana polozka</Popis>
+          <PocetMJ>3</PocetMJ>
+          <SazbaDPH>21</SazbaDPH>
+          <Cena>295</Cena>
+          <CenaTyp>1</CenaTyp>
+          <Sleva>0</Sleva>
+          <Poradi>1</Poradi>
+          <CenaPoSleve>1</CenaPoSleve>
+          <NesklPolozka>
+            <MJ>ks</MJ>
+            <Katalog>50</Katalog>
+            <Hmotnost>0</Hmotnost>
+          </NesklPolozka>
+        </Polozka>
+      </SeznamPolozek>
+    </FaktVyd>
+  </SeznamFaktVyd>
+</MoneyData>
