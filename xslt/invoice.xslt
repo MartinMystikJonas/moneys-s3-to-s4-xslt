@@ -32,7 +32,19 @@
       <VariabilniSymbol><xsl:value-of select="VarSymbol"/></VariabilniSymbol>
       <Vystavil><xsl:value-of select="/MoneyData/@description"/></Vystavil>
       <ZpusobPlatby>
-        <Kod>PayU</Kod>
+      <xsl:if test="Uhrada = 'plat. kart.'">
+        <Kod>KARTA</Kod>
+      </xsl:if>
+      <xsl:if test="Uhrada = 'hotově'">
+        <xsl:choose>
+          <xsl:when test="//Polozka/Popis[text()='Dobírka']">
+            <Kod>DOBIRKA</Kod>
+          </xsl:when>
+          <xsl:otherwise>
+            <Kod>HOTOVE</Kod>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:if>
       </ZpusobPlatby>
       <Mena>
         <Kod>CZK</Kod>

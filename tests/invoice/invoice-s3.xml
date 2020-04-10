@@ -9,7 +9,7 @@
       <Splatno>2020-04-16</Splatno>
       <VarSymbol>1230000123</VarSymbol>
       <CObjednavk>1230000321</CObjednavk>
-      <Uhrada>plat. kart.</Uhrada>
+      <Uhrada>hotově</Uhrada>
       <ZpDopravy>Česká Pošta</ZpDopravy>
       <KodDPH>19Ř01,02</KodDPH>
       <PredKontac>P503</PredKontac>
@@ -52,6 +52,21 @@
           <NesklPolozka>
             <MJ>ks</MJ>
             <Katalog>50</Katalog>
+            <Hmotnost>0</Hmotnost>
+          </NesklPolozka>
+        </Polozka>
+        <Polozka>
+          <Popis>Dobírka</Popis>
+          <PocetMJ>1</PocetMJ>
+          <SazbaDPH>21</SazbaDPH>
+          <Cena>65</Cena>
+          <CenaTyp>1</CenaTyp>
+          <Sleva>0</Sleva>
+          <Poradi>1</Poradi>
+          <CenaPoSleve>1</CenaPoSleve>
+          <NesklPolozka>
+            <MJ>ks</MJ>
+            <Katalog>0</Katalog>
             <Hmotnost>0</Hmotnost>
           </NesklPolozka>
         </Polozka>
