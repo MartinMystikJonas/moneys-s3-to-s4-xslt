@@ -73,5 +73,77 @@
         </PolozkaFakturyVydane>
       </Polozky>
     </FakturaVydana>
+    <FakturaVydana>
+      <CiselnaRada>
+        <Kod>ESHOP</Kod>
+      </CiselnaRada>
+      <CisloDokladu>E200000002</CisloDokladu>
+      <DatumPlneni>2020-04-12T00:00:00</DatumPlneni>
+      <DatumSkladovehoPohybu>2020-04-12T00:00:00</DatumSkladovehoPohybu>
+      <DatumSplatnosti>2020-04-26T00:00:00</DatumSplatnosti>
+      <DatumUcetnihoPripadu>2020-04-12T00:00:00</DatumUcetnihoPripadu>
+      <DatumUplatneni>2020-04-13T00:00:00</DatumUplatneni>
+      <DatumVystaveni>2020-04-12T00:00:00</DatumVystaveni>
+      <OdkazNaDoklad>č. 1230000322</OdkazNaDoklad>
+      <VariabilniSymbol>1230000124</VariabilniSymbol>
+      <Vystavil>Faktury vydané export</Vystavil>
+      <ZpusobPlatby>
+        <Kod>HOTOVE</Kod>
+      </ZpusobPlatby>
+      <Mena>
+        <Kod>CZK</Kod>
+      </Mena>
+      <Adresa>
+        <Nazev>Karel Novak</Nazev>
+        <Misto>Bratislava</Misto>
+        <PSC>22000</PSC>
+        <Ulice>Ulice 456</Ulice>
+        <AdresaStat>
+          <Kod>SK</Kod>
+        </AdresaStat>
+      </Adresa>
+      <AdresaKoncovehoPrijemce>
+        <Nazev>Josef Novak</Nazev>
+        <Misto>Praha</Misto>
+        <PSC>11000</PSC>
+        <Ulice>Ulice 123</Ulice>
+        <AdresaStat>
+          <Kod>CZ</Kod>
+        </AdresaStat>
+        <Email>test@test.cz</Email>
+        <Telefon>+420123456789</Telefon>
+      </AdresaKoncovehoPrijemce>
+      <AdresaPrijemceFaktury>
+        <Nazev>Josef Novak</Nazev>
+        <Misto>Praha</Misto>
+        <PSC>11000</PSC>
+        <Ulice>Ulice 123</Ulice>
+        <AdresaStat>
+          <Kod>CZ</Kod>
+        </AdresaStat>
+      </AdresaPrijemceFaktury>
+      <IC>123456789</IC>
+      <DIC>CZ123456789</DIC>
+      <Polozky ObjectName="PolozkaFakturyVydane" ObjectType="List">
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object">
+          <Nazev>Objednana polozka</Nazev>
+          <JednCena>295</JednCena>
+          <DPH>
+            <Sazba>21.00</Sazba>
+          </DPH>
+          <TypCeny>1</TypCeny>
+          <Mnozstvi>3</Mnozstvi>
+        </PolozkaFakturyVydane>
+        <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object">
+          <Nazev>Hotově</Nazev>
+          <JednCena>0</JednCena>
+          <DPH>
+            <Sazba>21.00</Sazba>
+          </DPH>
+          <TypCeny>1</TypCeny>
+          <Mnozstvi>1</Mnozstvi>
+        </PolozkaFakturyVydane>
+      </Polozky>
+    </FakturaVydana>
   </FakturaVydanaList>
 </S5Data>

@@ -72,5 +72,77 @@
         </Polozka>
       </SeznamPolozek>
     </FaktVyd>
+    <FaktVyd>
+      <Doklad>E200000002</Doklad>
+      <Popis>Objednávka č. 1230000124</Popis>
+      <Vystaveno>2020-04-12</Vystaveno>
+      <PlnenoDPH>2020-04-13</PlnenoDPH>
+      <Splatno>2020-04-26</Splatno>
+      <VarSymbol>1230000124</VarSymbol>
+      <CObjednavk>1230000322</CObjednavk>
+      <Uhrada>hotově</Uhrada>
+      <ZpDopravy>Osobní převzetí</ZpDopravy>
+      <KodDPH>19Ř01,02</KodDPH>
+      <PredKontac>P503</PredKontac>
+      <DodOdb>
+        <ObchNazev>Josef Novak</ObchNazev>
+        <ObchAdresa>
+          <Ulice>Ulice 123</Ulice>
+          <Misto>Praha</Misto>
+          <PSC>11000</PSC>
+          <Stat>Česká republika</Stat>
+          <KodStatu>CZ</KodStatu>
+        </ObchAdresa>
+        <FaktNazev>Karel Novak</FaktNazev>
+        <ICO>123456789</ICO>
+        <DIC>CZ123456789</DIC>
+        <FaktAdresa>
+          <Ulice>Ulice 456</Ulice>
+          <Misto>Bratislava</Misto>
+          <PSC>22000</PSC>
+          <Stat>Slovensko</Stat>
+          <KodStatu>SK</KodStatu>
+        </FaktAdresa>
+        <Nazev>Josef Novak</Nazev>
+        <Tel>
+          <Cislo>+420123456789</Cislo>
+        </Tel>
+        <EMail>test@test.cz</EMail>
+        <FyzOsoba>1</FyzOsoba>
+      </DodOdb>
+      <SeznamPolozek>
+        <Polozka>
+          <Popis>Objednana polozka</Popis>
+          <PocetMJ>3</PocetMJ>
+          <SazbaDPH>21</SazbaDPH>
+          <Cena>295</Cena>
+          <CenaTyp>1</CenaTyp>
+          <Sleva>0</Sleva>
+          <Poradi>1</Poradi>
+          <CenaPoSleve>1</CenaPoSleve>
+          <NesklPolozka>
+            <MJ>ks</MJ>
+            <Katalog>50</Katalog>
+            <Hmotnost>0</Hmotnost>
+          </NesklPolozka>
+        </Polozka>
+        <Polozka>
+          <Popis>Hotově</Popis>
+          <PocetMJ>1</PocetMJ>
+          <SazbaDPH>21</SazbaDPH>
+          <Cena>0</Cena>
+          <CenaTyp>1</CenaTyp>
+          <Sleva>0</Sleva>
+          <Poradi>1</Poradi>
+          <CenaPoSleve>1</CenaPoSleve>
+          <NesklPolozka>
+            <MJ>ks</MJ>
+            <Katalog>0</Katalog>
+            <Hmotnost>0</Hmotnost>
+          </NesklPolozka>
+        </Polozka>
+      </SeznamPolozek>
+    </FaktVyd>
+
   </SeznamFaktVyd>
 </MoneyData>

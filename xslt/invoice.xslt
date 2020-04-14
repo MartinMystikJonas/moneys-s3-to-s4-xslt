@@ -37,7 +37,7 @@
       </xsl:if>
       <xsl:if test="Uhrada = 'hotově'">
         <xsl:choose>
-          <xsl:when test="//Polozka/Popis[text()='Dobírka']">
+          <xsl:when test=".//Polozka/Popis[text()='Dobírka']">
             <Kod>DOBIRKA</Kod>
           </xsl:when>
           <xsl:otherwise>
