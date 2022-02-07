@@ -94,6 +94,9 @@
     <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object">
       <Nazev><xsl:value-of select="Popis"/></Nazev>
       <JednCena><xsl:value-of select="Cena"/></JednCena>
+      <xsl:if test="Sleva != 0">
+        <Sleva><xsl:value-of select="Sleva div Cena * 100"/></Sleva>
+      </xsl:if>
       <DPH>
         <Sazba><xsl:value-of select="SazbaDPH"/>.00</Sazba>
       </DPH>

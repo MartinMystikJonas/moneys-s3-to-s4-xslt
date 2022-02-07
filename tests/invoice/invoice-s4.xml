@@ -128,6 +128,7 @@
         <PolozkaFakturyVydane ObjectName="PolozkaFakturyVydane" ObjectType="Object">
           <Nazev>Objednana polozka</Nazev>
           <JednCena>295</JednCena>
+          <Sleva>10</Sleva>
           <DPH>
             <Sazba>21.00</Sazba>
           </DPH>
